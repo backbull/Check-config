@@ -1,17 +1,17 @@
 {
-    "name": "manindersandhu/installer",
-    "description": "A project installer package for Laravel",
+    "name": "Check-config",
+    "description": "Check server configuration that capable with project or not",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Manindersandhu\\Installer\\": "src/"
+            "Configuration\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Maninderdeep Singh",
-            "email": "maninderdeep5678@gmail.com"
+            "name": "Developer",
+            "email": "backends.developer@gmail.com"
         }
     ],
     "require": {
@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Manindersandhu\\Installer\\InstallerServiceProvider"
+                "Configuration\\InstallerServiceProvider"
             ]
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace Manindersandhu\Installer\Http\Controllers;
+namespace Configuration\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;

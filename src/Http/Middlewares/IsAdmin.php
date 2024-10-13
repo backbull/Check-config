@@ -1,6 +1,6 @@
 <?php
 
-namespace Manindersandhu\Installer\Http\Middlewares;
+namespace Configuration\Http\Middlewares;
 
 use Closure;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Manindersandhu\Installer\Http\Controllers;
+namespace Configuration\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
-use Manindersandhu\Installer\Traits\SetEnvironment;
+use Configuration\Traits\SetEnvironment;
 
 class DatabaseController extends Controller
 {
